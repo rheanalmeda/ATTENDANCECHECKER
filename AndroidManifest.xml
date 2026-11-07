@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AttendanceChecker">
+
+        <!-- Student Dashboard -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <!-- Professor Dashboard -->
+        <activity
+            android:name=".ProfessorDashboardActivity"
+            android:exported="false" />
+
+        <!-- Attendance Activity -->
+        <activity
+            android:name=".AttendanceActivity"
+            android:exported="false" />
+
+        <!-- Profile Activity -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <!-- Subjects Activity -->
+        <activity
+            android:name=".SubjectsActivity"
+            android:exported="false" />
+
+        <!-- Subject Attendance Activity -->
+        <activity
+            android:name=".SubjectAttendanceActivity"
+            android:exported="false" />
+
+        <!-- Registration Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- My QR Code Activity -->
+        <activity
+            android:name=".MyQRCodeActivity"
+            android:exported="false" />
+
+        <!-- QR Scanner Activity -->
+        <activity
+            android:name=".QRScannerActivity"
+            android:exported="false" />
+
+        <!-- Select Class Subject Activity -->
+        <activity
+            android:name=".SelectClassSubjectActivity"
+            android:exported="false" />
+
+        <!-- Attendance Reports Activity -->
+        <activity
+            android:name=".AttendanceReportsActivity"
+            android:exported="false" />
+
+        <!-- Login Activity / Launcher -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

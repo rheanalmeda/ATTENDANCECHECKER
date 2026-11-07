@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Attendance Checker</string>
+    <string name="plmun">PLMun</string>
+    <string name="attendance_checker">ATTENDANCE CHECKER</string>
+    <string name="welcome_student">Welcome, Student!</string>
+    <string name="bsit_3d">BSIT-3D</string>
+    <string name="my_qr_code">MY QR CODE</string>
+    <string name="my_attendance">MY ATTENDANCE</string>
+    <string name="my_subjects">MY SUBJECTS</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="logout">LOGOUT</string>
+    <string name="select_class_and_subject">SELECT CLASS AND SUBJECT</string>
+    <string name="attendance_reports">ATTENDANCE REPORTS</string>
+    <string name="logout1">LOGOUT</string>
+    <string name="welcome_professor">Welcome, Professor!</string>
+    <string name="professor_dashboard">Professor Dashboard</string>
+    <string name="plmun1">PLMun</string>
+</resources>

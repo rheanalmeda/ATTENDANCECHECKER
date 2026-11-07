@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+  <!-- Outer Green Ring -->
+  <path
+      android:fillColor="#006B2E"
+      android:pathData="M50,2 A48,48 0 1,1 49.9,2 Z" />
+  <path
+      android:strokeColor="#087A32"
+      android:strokeWidth="3"
+      android:fillColor="#00000000"
+      android:pathData="M50,5 A45,45 0 1,1 49.9,5 Z" />
+  <!-- Inner White Field -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M50,10 A40,40 0 1,1 49.9,10 Z" />
+  <!-- Split Background: Left Blue, Right Red -->
+  <path
+      android:fillColor="#1565C0"
+      android:pathData="M50,20 L20,50 L50,80 Z" />
+  <path
+      android:fillColor="#D32F2F"
+      android:pathData="M50,20 L80,50 L50,80 Z" />
+  <!-- Sun & Rays at Top -->
+  <path
+      android:fillColor="#FFD700"
+      android:pathData="M50,15 L53,25 L47,25 Z M35,20 L42,28 L38,32 Z M65,20 L58,28 L62,32 Z" />
+  <!-- Central Torch -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M47,32 L53,32 L52,72 L48,72 Z" />
+  <path
+      android:fillColor="#FFD700"
+      android:pathData="M50,25 C47,28 46,32 50,36 C54,32 53,28 50,25 Z" />
+  <path
+      android:fillColor="#D32F2F"
+      android:pathData="M50,22 C48,25 47,28 50,31 C53,28 52,25 50,22 Z" />
+  <!-- Banner / Ribbons -->
+  <path
+      android:fillColor="#FFD700"
+      android:pathData="M25,55 L75,55 L70,63 L30,63 Z" />
+  <!-- Bottom Laurel / Leaves -->
+  <path
+      android:fillColor="#006B2E"
+      android:pathData="M35,82 Q50,90 65,82 Q50,86 35,82 Z" />
+</vector>

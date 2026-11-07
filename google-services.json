@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "548074826053",
+    "project_id": "attendance-checker-2593e",
+    "storage_bucket": "attendance-checker-2593e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548074826053:android:0a11bbc6387c324099b62c",
+        "android_client_info": {
+          "package_name": "com.example.attendancechecker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbsoy1gVDsYV2w6i2tsek4V47qjybq_6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

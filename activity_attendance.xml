@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_plmun_logo"
+            android:contentDescription="@string/plmun" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY ATTENDANCE"
+            android:textColor="@color/bamboo_green"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/attendanceSummary"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Loading attendance..."
+            android:textColor="#263238"
+            android:textSize="16sp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:elevation="1dp"
+            android:layout_marginBottom="20dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/attendanceRecyclerView"
+            android:layout_width="320dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="320dp"
+            android:layout_height="56dp"
+            android:text="BACK TO DASHBOARD"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/green_rounded_button"
+            android:backgroundTint="@color/bamboo_green"
+            android:stateListAnimator="@null"
+            android:elevation="3dp" />
+
+    </LinearLayout>
+
+</ScrollView>
